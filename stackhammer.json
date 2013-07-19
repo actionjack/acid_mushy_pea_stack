@@ -1,0 +1,24 @@
+{
+  "metaVersion": "1.1.6",
+  "accessKey": "martin.jackson",
+  "puppetVersion": "PUPPET27",
+  "environments": [
+    {
+      "siteLocation": "manifests",
+      "moduleLocations": [
+        "modules"
+      ],
+      "nodes": [
+        {
+          "type": "M1_SMALL",
+          "deployState": "RUNNING",
+          "image": "ami-c7c0d6b3",
+          "role": "database",
+          "name": "mongo1"
+        }
+      ],
+      "name": "production"
+    }
+  ],
+  "puppetLintEnabled": false
+}

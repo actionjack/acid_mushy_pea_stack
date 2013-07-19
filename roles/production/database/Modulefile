@@ -1,0 +1,6 @@
+name 'actionjack-database'
+version '0.0.0'
+
+dependency 'puppetlabs/apt', '>=1.2.0'
+dependency 'puppetlabs/mongodb', '>=0.1.0'
+dependency 'puppetlabs/stdlib', '>=4.1.0'
